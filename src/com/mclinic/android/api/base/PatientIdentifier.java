@@ -14,10 +14,35 @@
  *  limitations under the License.
  */
 
-package com.mclinic.api;
+package com.mclinic.android.api.base;
 
-public class PatientAttribute {
+public class PatientIdentifier {
 
     private Integer id;
-
+    private String identifier;
+    
+	/**
+	 * @return the id
+	 */
+	public Integer getId() {
+		return id;
+	}
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	/**
+	 * @return the identifier
+	 */
+	public String getIdentifier() {
+		return identifier;
+	}
+	/**
+	 * @param identifier the identifier to set
+	 */
+	public void setIdentifier(String identifier) {
+		this.identifier = identifier;
+	}
 }
